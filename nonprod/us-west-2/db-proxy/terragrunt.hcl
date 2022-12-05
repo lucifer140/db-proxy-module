@@ -44,7 +44,24 @@ locals {
 
 
 inputs = {
-      proxy-name = "proxy-test"
+      db-proxy-name = "proxy-test"
     policy-name = "policy-test"
     role-name = "test-role"
+    sg-id = "Sg-0fa6202eca731f28d"
+    debug_logging = "false"
+    engine_family = "mysql"
+    idle_client_timeout = "1800"
+    require_tls = "true"
+    connection_borrow_timeout = "120"
+    max_connections_percent = "100"
+    max_idle_connections_percent = "50"
+    rds_cluster_identifier = "Hotel-non-prod-rds-cluster"
+    vpc_subnet_ids = []
+
+
+
+
+
+
+
 }
