@@ -1,0 +1,8 @@
+module "db-proxy" {
+    source = "./module"
+    proxy-name = "proxy-test"
+    policy-name = "policy-test"
+    role-name = "test-role"
+
+  
+}
